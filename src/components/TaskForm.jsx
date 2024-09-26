@@ -22,6 +22,7 @@ function TaskForm() {
             handleSubmit(e);
             e.target.reset();
         }}>
+            <h3>Create your task</h3>
             <input type="text" placeholder="Write your task" autoFocus
                 onChange={(e) => { setName(e.target.value); }}
             />
